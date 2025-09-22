@@ -10,11 +10,14 @@
 
 # Использование
 Для работы с кодом необходимо ввести в терминале:
+
   python finding_duplicates.py <*список слов через запятую*>
+
 Пример ввода для проверки работоспособности кода:
+
   python finding_duplicates.py "apple, appel, appl, banana, bannana, orange, oragne, ornge, grape, grap"
   
 # Установка зависимостей
 Для корректной работы кода следует установить нужные библиотеки с помощью команд:
-  pip install fuzzywuzzy
-  pip install python-Levenshtein
+
+  pip install fuzzywuzzy python-Levenshtein
